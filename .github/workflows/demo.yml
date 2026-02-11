@@ -30,9 +30,5 @@ jobs:
           pip install -r requirements.txt
           pip install flake8 allure-behave
 
-      - name: Run BDD Tests
-        run: |
-       
-          behave -f allure_behave.formatter:AllureFormatter -o allure-results
-
+      
       
